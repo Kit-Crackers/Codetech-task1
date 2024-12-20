@@ -13,7 +13,11 @@ Duration: 17Dec2024-17Jan2024
 **Overview of project**
 
 ![Screenshot 2024-12-20 100525](https://github.com/user-attachments/assets/6369df94-f886-4e17-8736-238e14ad7c4f)
+![Screenshot 2024-12-20 100607](https://github.com/user-attachments/assets/9d93bd2a-6176-48af-81a3-027098db998b)
+![Screenshot 2024-12-20 100621](https://github.com/user-attachments/assets/579d48d3-fb8d-4a6d-aac3-9de24a680a76)
+![Screenshot 2024-12-20 100637](https://github.com/user-attachments/assets/202e35be-c280-4b47-84ec-ccaaa55eaedf)
 
+![Screenshot 2024-12-20 100653](https://github.com/user-attachments/assets/b6152fa1-2561-46b0-874c-0bc8cd6d4139)
 
 **Objective**
 
