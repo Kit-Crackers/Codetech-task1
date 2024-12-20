@@ -8,9 +8,15 @@ Domain: Data Analysis
 
 Duration: 17Dec2024-17Jan2024
 
-					**Titanic Data Analysis - Exploratory Data Analysis (EDA)**
+**Titanic Data Analysis - Exploratory Data Analysis (EDA)**
+
+**Overview of project**
+
+![Screenshot 2024-12-20 100525](https://github.com/user-attachments/assets/6369df94-f886-4e17-8736-238e14ad7c4f)
+
 
 **Objective**
+
 The objective of this project is to perform Exploratory Data Analysis (EDA) on the Titanic dataset to gain insights into the data by analyzing its characteristics, distributions, correlations, and identifying any outliers. The analysis will be visualized using various graphs such as histograms, scatter plots, and heatmaps.
 
 **Key Activities**
