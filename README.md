@@ -1,7 +1,11 @@
 Name: Richa Singh
+
 Company: Codetech IT Solutions
+
 ID: CT08EMC
+
 Domain: Data Analysis
+
 Duration: 17Dec2024-17Jan2024
 
 **Titanic Data Analysis - Exploratory Data Analysis (EDA)**
