@@ -38,28 +38,32 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on t
 
 
 **Technologies Used**
-	•	Python: Programming language used for the analysis and data manipulation.
-	•	Pandas: For loading, cleaning, and manipulating the dataset.
-	•	NumPy: For handling numerical operations.
-	•	Matplotlib: For creating static visualizations such as histograms and boxplots.
-	•	Seaborn: For creating advanced visualizations like heatmaps and count plots.
+
+•	Python: Programming language used for the analysis and data manipulation.
+•	Pandas: For loading, cleaning, and manipulating the dataset.
+•	NumPy: For handling numerical operations.
+•	Matplotlib: For creating static visualizations such as histograms and boxplots.
+•	Seaborn: For creating advanced visualizations like heatmaps and count plots.
 
 **Dataset Information**
-	•	The Titanic dataset contains information about the passengers who were aboard the Titanic, including features such as:
-		o	PassengerId: Unique ID for each passenger.
-		o	Pclass: Passenger class (1st, 2nd, 3rd).
-		o	Name: Name of the passenger.
-		o	Sex: Gender of the passenger.
-		o	Age: Age of the passenger.
-		o	SibSp: Number of siblings/spouses aboard the Titanic.
-		o	Parch: Number of parents/children aboard the Titanic.
-		o	Fare: Ticket price.
-		o	Embarked: Port of embarkation (C = Cherbourg; Q = Queenstown; S = Southampton).
-		o	Survived: Whether the passenger survived (1 = Yes, 0 = No)
+
+•	The Titanic dataset contains information about the passengers who were aboard the Titanic, including features such as:
+
+o	PassengerId: Unique ID for each passenger.
+o	Pclass: Passenger class (1st, 2nd, 3rd).		
+o	Name: Name of the passenger.
+o	Sex: Gender of the passenger.
+o	Age: Age of the passenger.
+o	SibSp: Number of siblings/spouses aboard the Titanic.
+o	Parch: Number of parents/children aboard the Titanic.
+o	Fare: Ticket price.
+o	Embarked: Port of embarkation (C = Cherbourg; Q = Queenstown; S = Southampton).
+o	Survived: Whether the passenger survived (1 = Yes, 0 = No)
 
 **Key Insights**
-	•	Gender and Survival Rate: Females had a higher survival rate compared to males.
-	•	Passenger Class: Passengers in 1st class had a significantly higher chance of survival than those in 2nd and 3rd class.
-	•	Age: Younger passengers (children) had a higher survival rate.
-	•	Fare: 1st class passengers paid significantly higher fares than those in 2nd and 3rd class, and they also had a higher survival rate.
+
+•	Gender and Survival Rate: Females had a higher survival rate compared to males.
+•	Passenger Class: Passengers in 1st class had a significantly higher chance of survival than those in 2nd and 3rd class.
+•	Age: Younger passengers (children) had a higher survival rate.
+•	Fare: 1st class passengers paid significantly higher fares than those in 2nd and 3rd class, and they also had a higher survival rate.
 
