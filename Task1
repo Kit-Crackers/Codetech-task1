@@ -1,0 +1,91 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Corrected file path (using raw string literal)
+file_path = 'tested.csv'
+
+# Load the Titanic dataset (CSV file)
+try:
+    titanic_data = pd.read_csv(file_path)
+    print("Dataset loaded successfully!")
+except FileNotFoundError as e:
+    print("Error: File not found. Please check the path.")
+    print(e)
+
+# Display basic information about the dataset
+print("Dataset Preview:")
+display(titanic_data.head())
+
+print("\nDataset Info:")
+display(titanic_data.info())
+
+print("\nMissing Values:")
+display(titanic_data.isnull().sum())
+
+# Fill missing values for 'Age' with median and 'Embarked' with mode
+titanic_data['Age'].fillna(titanic_data['Age'].median(), inplace=True)
+titanic_data['Embarked'].fillna(titanic_data['Embarked'].mode()[0], inplace=True)
+
+# Check updated missing values
+print("\nUpdated Missing Values:")
+display(titanic_data.isnull().sum())
+
+# Summary statistics
+print("\nSummary Statistics:")
+display(titanic_data.describe())
+
+# 1. Age Distribution
+plt.figure(figsize=(8, 6))
+sns.histplot(titanic_data['Age'], kde=True, bins=30, color='blue')
+plt.title('Age Distribution')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.show()
+
+# 2. Survival by Gender
+plt.figure(figsize=(8, 6))
+sns.countplot(x='Survived', hue='Sex', data=titanic_data, palette='Set2')
+plt.title('Survival by Gender')
+plt.xlabel('Survived (0 = No, 1 = Yes)')
+plt.ylabel('Count')
+plt.show()
+
+# 3. Survival by Passenger Class
+plt.figure(figsize=(8, 6))
+sns.countplot(x='Survived', hue='Pclass', data=titanic_data, palette='Set3')
+plt.title('Survival by Passenger Class')
+plt.xlabel('Survived (0 = No, 1 = Yes)')
+plt.ylabel('Count')
+plt.show()
+
+# 4. Fare Distribution
+plt.figure(figsize=(8, 6))
+sns.histplot(titanic_data['Fare'], kde=True, color='green')
+plt.title('Fare Distribution')
+plt.xlabel('Fare')
+plt.ylabel('Frequency')
+plt.show()
+
+# 5. Correlation Heatmap
+plt.figure(figsize=(10, 8))
+correlation_matrix = titanic_data.corr()
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
+plt.title('Correlation Heatmap')
+plt.show()
+
+# 6. Boxplot for Fare by Class
+plt.figure(figsize=(8, 6))
+sns.boxplot(x='Pclass', y='Fare', data=titanic_data, palette='Set2')
+plt.title('Fare Distribution by Passenger Class')
+plt.xlabel('Passenger Class')
+plt.ylabel('Fare')
+plt.show()
+
+# Insights
+print("\nKey Insights:")
+print("- Females had a higher survival rate compared to males.")
+print("- Passengers in 1st class were more likely to survive.")
+print("- Younger passengers (children) had higher survival rates.")
+print("- Fares were significantly higher for 1st class passengers.")
