@@ -26,24 +26,36 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on t
 1.	Data Loading: Loaded the Titanic dataset from a CSV file using pandas.
 
 2.	Data Cleaning:
-	o	Handled missing data by filling missing values in columns like Age and Embarked.
-	o	Analyzed the data for missing values and visualized the filled data.
+	
+ o	Handled missing data by filling missing values in columns like Age and Embarked.
+	
+ o	Analyzed the data for missing values and visualized the filled data.
 
 3.	Data Exploration:
-	o	Explored the dataset's key characteristics, such as passenger survival rate, age distribution, and fare distribution.
-	o	Visualized the survival rate by gender and passenger class using bar plots.
-	o	Analyzed the distribution of fare and age using histograms and boxplots.
+	
+ o	Explored the dataset's key characteristics, such as passenger survival rate, age distribution, and fare distribution.
+	
+ o	Visualized the survival rate by gender and passenger class using bar plots.
+
+ o	Analyzed the distribution of fare and age using histograms and boxplots.
 
 4.	Data Visualization:
-	o	Used seaborn and matplotlib to create various visualizations including:
-			Histograms: To show the distribution of age and fare.
-			Count Plots: To show survival by gender and passenger class.
-			Heatmap: To show correlations between numerical features.
-			Boxplot: To visualize fare distribution across different passenger classes.
+	
+ o	Used seaborn and matplotlib to create various visualizations including:
+		
+  	Histograms: To show the distribution of age and fare.
+  
+  	Count Plots: To show survival by gender and passenger class.
+		
+  	Heatmap: To show correlations between numerical features.
+		
+  	Boxplot: To visualize fare distribution across different passenger classes.
 
 5.	Insights and Findings:
-	o	Identified patterns, such as the higher survival rate among females and 1st class passengers.
-	o	Analyzed the age distribution and its correlation with survival rate.
+	
+ o	Identified patterns, such as the higher survival rate among females and 1st class passengers.
+	
+ o	Analyzed the age distribution and its correlation with survival rate.
 
 
 **Technologies Used**
